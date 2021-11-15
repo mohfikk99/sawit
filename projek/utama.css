@@ -1,0 +1,318 @@
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+    color: green;
+    font-family: Noto Sans JP;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white;
+    margin-left: 15px;
+}
+
+
+.jumbotron {
+    background-image: url(img/9.png);
+    background-size: cover;
+    margin-top: 39px;
+    height: 600px;
+}
+
+.jumbotron .display-4 {
+    margin-top: 120px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    color: green;
+    font-size: 30px;
+}
+
+.jumbotron h2 {
+    font-size: 19px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-weight: 300;
+}
+
+.jumbotron p {
+    color: white;
+    font-size: 12px;
+    margin-top: 140px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* Card 1 */
+.my-card1 {
+    margin-top: -235px;
+    color: white;
+    background-color: rgba(20, 190, 57, 0.6);
+}
+
+.my-card1 p {
+    font-size: 13px;
+}
+
+/* akhir card 1 */
+
+/* card 2 */
+
+.my-card2 {
+    margin-top: -45px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.my-card2 p {
+    font-size: 13px;
+}
+
+/* akhir card 2 */
+
+/* card 3 */
+
+.my-card3 {
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.my-card3 p {
+    font-size: 13px;
+}
+
+/* akhir card 3 */
+
+/* profil */
+
+.profil {
+    width: 100%;
+    height: 230px;
+    margin-top: 60px;
+
+}
+
+.sejarah {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.sejarah h3 {
+    color: green;
+}
+
+/* Akhir Profil */
+
+/* My Image */
+
+.my-image img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* akhir Image */
+
+/* komitmen */
+
+.komitmen {
+    margin-top: 40px;
+    height: 500px;
+    background-color: black;
+}
+
+.komitmen h3 {
+    margin-top: 25px;
+    color: green;
+}
+
+.komitmen p {
+    color: white;
+}
+
+.harapan-img {
+    width: 100%;
+    margin-top: 20px;
+}
+/* akhir komitmen */
+
+/* footer */
+
+.my-footer {
+    height: 55px;
+    background-color: green;
+}
+
+.my-footer p {
+    color: white;
+    margin-top: 12px;
+    font-family: Noto Sans JP;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+/* akhir footer */
+
+.tombol {
+    background-color: white;
+}
+
+
+
+
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+    .jumbotron {
+        background-image: url(img/9.png);
+        background-size: cover;
+        margin-top: 39px;
+        height: 700px;
+    }
+    
+    .jumbotron .display-4 {
+        margin-top: 85px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        color: green;
+        font-size: 56px;
+    }
+
+    .jumbotron h2 {
+        font-size: 36px;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        font-weight: 300;
+    }
+
+    .jumbotron p {
+        color: white;
+        font-size: 25px;
+        margin-top: 168px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-link {
+        color: white;
+        margin-left: 15px;
+        text-transform: uppercase;
+    }
+
+    /* Card 1 */
+    .my-card1 {
+        margin-top: -235px;
+        color: white;
+        width: 100%;
+        background-color: rgba(20, 190, 57, 0.6);
+    }
+
+    .my-card1 p {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+
+    /* akhir card 1 */
+
+    /* card 2 */
+
+    .my-card2 {
+        margin-top: -235px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        width: 100%;
+    }
+
+    .my-card2 p {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+
+    /* akhir card 2 */
+
+    /* card 3 */
+
+    .my-card3 {
+        margin-top: -235px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        width: 100%;
+    }
+
+    .my-card3 p {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+
+    /* akhir card 3 */
+
+    /* profil */
+
+    .profil {
+        width: 400px;
+        height: 230px;
+        margin-top: 80px;
+    }
+
+    .sejarah {
+        margin-top: 80px;
+    }
+
+    .sejarah h3 {
+        color: green;
+    }
+
+    /* Akhir Profil */
+
+    /* My Image */
+
+    .my-image img {
+        width: 100%;
+        margin-top: 65px;
+    }
+
+    /* akhir Image */
+
+    /* komitmen */
+
+    .komitmen {
+        margin-top: -90px;
+        height: 500px;
+        background-color: black;
+    }
+    
+    .komitmen h3 {
+        margin-top: 200px;
+        color: green;
+    }
+    
+    .harapan-img {
+        width: 100%;
+        margin-top: 190px;
+        height: 235px;
+
+    }
+    
+    /* akhir komitmen */
+
+    /* footer */
+
+    .my-footer {
+        height: 55px;
+        background-color: green;
+    }
+
+    .my-footer p {
+        color: white;
+        margin-top: 12px;
+        font-family: Noto Sans JP;
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+    /* akhir footer */
+    
+    
+
+    
+    
+}
